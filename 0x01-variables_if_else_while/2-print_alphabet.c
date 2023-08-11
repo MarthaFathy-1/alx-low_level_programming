@@ -10,9 +10,10 @@ int main(void)
 	 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	int i;
 
-	for (i=0; i < lowercase[i]; i++)
+	for (i = 0; i < lowercase[i]; i++)
 	{
 		putchar(lowercase[i]);
 	}
+	putchar('\n');
 	return (0);
 }
