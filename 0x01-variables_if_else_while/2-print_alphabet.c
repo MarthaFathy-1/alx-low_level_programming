@@ -12,7 +12,7 @@ int main(void)
 	for (i=0; i <= lowercase[i]; i++)
 	{
 		putchar(lowercase[i]);
-		putchar('\n')
+		putchar('\n');
 	}
 	return (0);
 }
