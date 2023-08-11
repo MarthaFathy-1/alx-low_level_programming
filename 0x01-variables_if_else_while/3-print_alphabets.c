@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (i = 0; i <= lowercase[i]; i++)
 	{
-		putchar(lowercase[i]-=32);
+		putchar(lowercase[i] -= 32);
 	}
 	putchar('\n');
 	return (0);
