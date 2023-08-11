@@ -6,11 +6,14 @@
  */
 int main(void)
 {
-	char b;
+	char b[] = {'z', 'y', 'x', 'w', 'v', 'u', 't', 's', 'r',
+		'q', 'p', 'o', 'n', 'm', 'l', 'k', 'j', 'i', 'h',
+		'g', 'f', 'e', 'd', 'c', 'b', 'a'};
+	int r;
 
-	for (b = 'Z'; b <= 'A'; b--)
+	for (r = 0; r <= b[r] ; r++)
 	{
-		putchar('b' + 32);
+		putchar(b[r]);
 	}
 	putchar('\n');
 	return (0);
