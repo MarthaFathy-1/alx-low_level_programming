@@ -11,8 +11,8 @@ int main(void)
 	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
-		putchar('\,');
-		putcar(' ');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
