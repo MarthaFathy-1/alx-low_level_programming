@@ -10,7 +10,7 @@ int main(void)
 
 	for (b = 'Z'; b <= 'A'; b--)
 	{
-		putchar(b + '32');
+		putchar('b' + 32);
 	}
 	putchar('\n');
 	return (0);
