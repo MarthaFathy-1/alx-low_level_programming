@@ -6,14 +6,11 @@
  */
 int main(void)
 {
-	char lowercase[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g',
-	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
-	 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	int i;
+	char lc;
 
-	for (i = 0; i <= lowercase[i]; i++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(lowercase[i]);
+		putchar(lc);
 	}
 	putchar('\n');
 	return (0);
