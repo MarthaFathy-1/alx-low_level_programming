@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: program that prints all possible different combinations of three digits
+ * program that prints all possible different combinations of three digits
  * Return: return value 0
  */
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(r + '0');
 				putchar(q + '0');
-				putchar(l+ '0');
+				putchar(l + '0');
 				if (r + q + l != 24)
 				{
 					putchar(',');
