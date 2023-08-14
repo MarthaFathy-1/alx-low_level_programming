@@ -14,8 +14,11 @@ int main(void)
 		{
 			putchar(r + '0');
 			putchar(m + '0');
+			if (r + m != 17)
+			{
 			putchar(',');
 			putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
