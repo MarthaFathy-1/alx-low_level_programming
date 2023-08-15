@@ -6,13 +6,9 @@
  */
 int _islower(int c)
 {
-	if (_islower(c) == 1)
-	{
-		_putchar(1);
-	}
-	else
-	{
-		_putchar(0);
-	}
+	int r;
+
+	r = _islower(c)? : 0;
+	_putchar('r');
 	return (0);
 }
