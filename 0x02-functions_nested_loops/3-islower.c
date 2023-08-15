@@ -6,8 +6,6 @@
  */
 int _islower(int c)
 {
-	int c;
-
 	if (_islower(c) == 1)
 	{
 		_putchar('1');
