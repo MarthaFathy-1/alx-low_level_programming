@@ -11,7 +11,7 @@ int main(void)
 	char lw[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int q;
 
-	for (q = 0; q < 9 ; q++)
+	for (q = 0; q < 8 ; q++)
 	{
 		putchar(lw[q]);
 	}
