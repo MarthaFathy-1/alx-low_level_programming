@@ -6,11 +6,11 @@
  */
 int _islower(int c)
 {
-	int r;
+	int c;
 
-	if (_islower(r) == 1)
+	if (_islower(c) == 1)
 	{
-		_putchat('1');
+		_putchar('1');
 	}
 	else
 	{
