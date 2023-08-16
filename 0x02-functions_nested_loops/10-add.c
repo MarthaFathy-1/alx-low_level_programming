@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - function that adds two integers 
+ * add - function that adds two integers
  *
  * @m : num1
  * @t : num2
