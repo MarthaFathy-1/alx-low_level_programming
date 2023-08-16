@@ -16,8 +16,10 @@ void times_table(void)
 			if (i + j != 18)
 			{
 			_putchar(',');
-			_putchar('..');
+			_putchar(' ');
+			_putchar(' ');
 			}
 		}
 		_putchar('\n');
 	}
+}
