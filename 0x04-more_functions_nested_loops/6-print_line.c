@@ -2,6 +2,7 @@
 /**
  * print_line - function that draws a straight line
  *
+ * @n: input number
  * Return: void
  */
 void print_line(int n)
