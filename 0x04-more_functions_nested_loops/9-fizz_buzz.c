@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	int i, k;
-	char ch[i];
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
