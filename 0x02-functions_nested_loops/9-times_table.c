@@ -18,17 +18,14 @@ void times_table(void)
 			{
 				if (l * m / 10 <= 0)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
+					printf(",  ");
 				}
 				else
 				{
-					_putchar(',');
-					_putchar(' ');
+					printf(", ");
 				}
 			}
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
