@@ -14,7 +14,7 @@ int main(void)
 		t = i % 3;
 		f = i % 5;
 		
-		if (t == 0 || f == 0);
+		if (t == 0 || f == 0)
 		{
 			sum = sum + i;
 		}
