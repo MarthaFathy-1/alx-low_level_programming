@@ -13,7 +13,7 @@ void times_table(void)
 	{
 		for (m = 0; m <= 9; m++)
 		{
-			_putchar(l * m);
+			printf("%d", l * m);
 			if (m != 9)
 			{
 				if (l * m / 10 <= 0)
