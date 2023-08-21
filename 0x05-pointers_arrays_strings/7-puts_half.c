@@ -12,19 +12,9 @@ void puts_half(char *str)
 	{
 		n++;
 	}
-	if (n % 2 == 0)
-	{
-		for (i = n / 2; str[i] != '\0'; ++str)
+	for (i = n / 2; str[i] != '\0'; ++str)
 		{
 			_putchar(str[i]);
 		}
-	}
-	else
-	{
-		for (i = n / 2 ; str[i] != '\0'; ++str)
-		{
-			_putchar(str[i]);
-		}
-	}
 	_putchar('\n');
 }
